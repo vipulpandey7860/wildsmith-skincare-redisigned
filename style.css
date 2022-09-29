@@ -1,0 +1,397 @@
+@font-face {
+    font-family: kyok;
+    src: url("assets/Kyok-Light.otf");
+}
+
+@font-face {
+    font-family: bagiste;
+    src: url("assets/Bagiste.otf");
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #FEFCF9;
+    overflow-x: hidden;
+    font-family: "kyok";
+
+}
+
+#main {
+    min-height: 100vh;
+    width: 100vw;
+}
+
+#page1 {
+    position: relative;
+    width: 100vw;
+}
+
+#nav {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 4vh 5vw;
+}
+
+.links {
+    width: 15vw;
+    gap: 3vw;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.2vw;
+    font-weight: bolder;
+
+}
+
+.logo img {
+    height: 10vh;
+    width: 10vw;
+
+}
+
+.icons {
+    width: 10vw;
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+
+}
+
+.icons i {
+    font-size: 1.5vw;
+    color: rgb(45, 44, 44);
+}
+
+.hero-txt {
+    position: relative;
+    top: 20vh;
+}
+
+.hero-txt h1 {
+    font-family: "bagiste";
+    font-size: 5vw;
+    font-weight: 100;
+    text-align: center;
+    line-height: 10vh;
+}
+
+#page1-circle {
+    position: relative;
+    height: 30vw;
+    width: 30vw;
+    background-color: #e0e2dc;
+    border-radius: 50%;
+    top: 35vh;
+    left: 35vw;
+}
+
+#page1-circle img {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 60vh;
+    width: 60vw;
+}
+
+#page2 {
+    position: relative;
+    width: 100vw;
+}
+
+#page2-circle {
+    position: relative;
+    top: 20vh;
+    left: -11vh;
+    height: 65vw;
+    width: 110vw;
+    border-radius: 50% 50% 0 0;
+    background-color: #FAF7F2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20vh;
+    gap: 4vh;
+    margin-bottom: 15vh;
+}
+
+#page2-circle h5 {
+    text-transform: uppercase;
+}
+
+#page2-circle h2 {
+    font-family: "bagiste";
+    text-align: center;
+    font-size: 4vw;
+    font-weight: 100;
+    line-height: 10vh;
+}
+
+#page2-circle img {
+    height: 45vh;
+    width: 45vw;
+}
+
+#page2-circle button {
+    background-color: #FAF7F2;
+    border: 1px solid black;
+    height: 6vh;
+    width: 13vw;
+}
+
+#page3 {
+    position: relative;
+    width: 100vw;
+}
+
+.img-spot {
+    height: 60vh;
+    width: 100vw;
+    background-position: top;
+    background-size: cover;
+    background-image: url("https://images.pexels.com/photos/6001217/pexels-photo-6001217.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6vh;
+    justify-content: center;
+
+}
+
+.img-spot h2 {
+
+    color: white;
+    font-size: 3vw;
+    font-family: "bagiste";
+    font-weight: 100;
+
+}
+
+.img-spot button {
+
+    height: 6vh;
+    width: 15vw;
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 1.1vw;
+}
+
+
+#page4 {
+    width: 100vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10vh;
+}
+
+.contents {
+
+    display: flex;
+    align-items: flex-start;
+    gap: 4vh;
+    flex-direction: column;
+    padding-left: 5vw;
+}
+
+.contents h5 {
+    font-size: 1.2vw;
+    text-transform: uppercase;
+    color: gray;
+    font-weight: 200;
+
+}
+
+.contents h2 {
+
+    font-family: "bagiste";
+    font-size: 2.2vw;
+    font-weight: 300;
+
+}
+
+.contents p {
+    font-size: 1.2vw;
+}
+
+.contents button {
+    background-color: transparent;
+    border: 1px solid black;
+    height: 5vh;
+    width: 13vw;
+}
+
+.image {
+    position: relative;
+    height: 35vw;
+    width: 35vw;
+    background-color: #e0e2dc;
+    border-radius: 50%;
+    margin-right: 10vw;
+}
+
+.image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: auto;
+    width: 44vw;
+}
+
+#page5 {
+    position: relative;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4vh;
+    margin-top: 10vh;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+    background-color: #FAF7F2;
+}
+
+#page5 h1 {
+    font-family: "bagiste";
+    font-weight: 100;
+    font-size: 3vw;
+}
+
+#page5 h4 {
+    font-size: 1.3vw;
+    font-weight: 100;
+
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 95vw;
+}
+
+.img-container img {
+    height: 20vw;
+    width: 20vw;
+}
+
+footer {
+    position: relative;
+    width: 100vw;
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4vh;
+padding-bottom: 10vh;
+}
+
+.link-sec {
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10vh;
+}
+
+.logo-sec img{
+    height: 6vh;
+
+}
+
+footer h3 {
+    text-transform: uppercase;
+    font-size: 1.3vw;
+}
+
+
+
+
+.customer-care {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2vh;
+}
+
+.customer-care a {
+    text-decoration: none;
+    color: black;
+    font-size: 1vw;
+}
+
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2vh;
+}
+
+.contact a {
+    text-decoration: none;
+    color: black;
+    font-size: 1vw;
+}
+
+#logos i {
+    text-align: start;
+    font-size: 1.5vw;
+    margin: 1vw;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2vh;
+}
+
+.newsletter #email {
+
+    border: none;
+    color: rgb(55, 55, 55);
+    width: 20vw;
+    border-bottom: 1px solid black;
+    padding-bottom: 1vh;
+    font-size: 1vw;
+}
+
+.newsletter #cbox{
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+}
+
+.newsletter #cbox h4{
+    font-size: 0.8vw;
+    color: rgb(55, 55, 55);
+}
