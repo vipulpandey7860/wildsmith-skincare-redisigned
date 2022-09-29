@@ -63,8 +63,10 @@ body {
 }
 
 .logo img {
-    height: 10vh;
+    height: 5vw;
     width: 10vw;
+    position: relative;
+    left: -2vw;
 
 }
 
@@ -109,7 +111,7 @@ body {
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 60vh;
+    height: 30vw;
     width: 60vw;
 }
 
@@ -121,7 +123,7 @@ body {
 #page2-circle {
     position: relative;
     top: 20vh;
-    left: -11vh;
+    left: -10vh;
     height: 65vw;
     width: 110vw;
     border-radius: 50% 50% 0 0;
@@ -147,8 +149,10 @@ body {
 }
 
 #page2-circle img {
-    height: 45vh;
+    position: relative;
+    height: 22.5vw;
     width: 45vw;
+    left: 2vw;
 }
 
 #page2-circle button {
@@ -168,7 +172,7 @@ body {
     width: 100vw;
     background-position: top;
     background-size: cover;
-    background-image: url("https://images.pexels.com/photos/6001217/pexels-photo-6001217.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-image: url("assets/our\ origin.webp");
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -305,7 +309,6 @@ footer {
     margin-top: 10vh;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
     gap: 4vh;
     padding-bottom: 10vh;
@@ -314,7 +317,7 @@ footer {
 .link-sec {
     width: 90vw;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     margin-top: 10vh;
 }
@@ -328,9 +331,6 @@ footer h3 {
     text-transform: uppercase;
     font-size: 1.3vw;
 }
-
-
-
 
 .customer-care {
     display: flex;
@@ -394,4 +394,183 @@ footer h3 {
 .newsletter #cbox h4 {
     font-size: 0.8vw;
     color: rgb(55, 55, 55);
+}
+
+footer h6 {
+    font-size: 1vw;
+    position: relative;
+    bottom: -7vh;
+}
+
+@media only screen and (max-width:500px) {
+
+
+    #nav {
+        padding: 0 3vw;
+    }
+
+    .links a {
+        font-size: 2vw;
+    }
+
+    .logo img {
+        height: 8vh;
+        width: 24vw;
+        position: relative;
+        left: 4.5vw;
+    }
+
+    .icons {
+        width: 18vw;
+    }
+
+    .icons i {
+        font-size: 3.5vw;
+    }
+
+    .hero-txt {
+        top: 5vh;
+    }
+
+    .hero-txt h1 {
+        line-height: 3.5vh;
+    }
+
+
+    #page1-circle {
+        top: 12vh;
+    }
+
+    #page2-circle {
+        top: 9vh;
+        left: -6vw;
+        padding-top: 10vh;
+        height: 110vw;
+        margin-bottom: 8vh;
+    }
+
+    #page2-circle h2 {
+        line-height: 3vh;
+    }
+
+
+    #page2-circle button {
+        height: 4vh;
+        width: 28vw;
+    }
+
+    .img-spot {
+        height: 27vh;
+    }
+
+    .img-spot h2 {
+        font-size: 9vw;
+    }
+
+
+    .img-spot button {
+        height: 4vh;
+        width: 33vw;
+        font-size: 2vw;
+    }
+
+    .contents {
+        gap: 3vh;
+    }
+
+    .contents h5 {
+        font-size: 3vw;
+    }
+
+    .contents h2 {
+        font-size: 2.5vw;
+    }
+
+    .contents p {
+        font-size: 2vw;
+    }
+
+
+    .contents button {
+        height: 3vh;
+        width: 20vw;
+        font-size: 2vw;
+    }
+
+    #page5 {
+        gap: 2.5vh;
+    }
+
+    #page5 h1 {
+        font-size: 5vw;
+    }
+
+    #page5 h4 {
+        font-size: 3vw;
+    }
+
+
+
+    .logo-sec img {
+        height: 4vh;
+    }
+
+
+    .link-sec {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: initial;
+        width: 85vw;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+
+    footer h3 {
+        font-size: 2.7vw;
+    }
+
+    .customer-care a {
+        font-size: 2vw;
+    }
+
+    .contact a {
+        font-size: 2vw;
+    }
+
+    #logos i {
+        font-size: 3vw;
+    }
+
+    .newsletter {
+        margin: 5vh 9vh;
+        align-self: center;
+    }
+
+    .newsletter h3 {
+        width: 43vw;
+    }
+
+    .newsletter #email {
+        font-size: 2vw;
+        width: 43vw;
+    }
+
+
+    .newsletter #cbox h4 {
+        font-size: 1.8vw;
+    }
+
+    .contact {
+        margin-left: -33vw;
+    }
+
+
+    footer h6 {
+        position: absolute;
+        bottom: 14vh;
+        font-size: 1.8vw;
+    }
+
+
+
 }
