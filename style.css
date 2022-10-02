@@ -563,7 +563,7 @@ footer h6 {
         justify-content: initial;
         width: 85vw;
         margin-top: 5vh;
-        margin-bottom: 5vh;
+        /* margin-bottom: 5vh; */
     }
 
     footer h3 {
@@ -611,8 +611,12 @@ footer h6 {
 
     footer h6 {
         position: absolute;
-        bottom: 14vh;
+        bottom: 3vh;
         font-size: 2.3vw;
+    }
+
+    footer{
+        height: 60vh;
     }
 
 
