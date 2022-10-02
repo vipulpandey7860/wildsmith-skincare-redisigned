@@ -453,7 +453,7 @@ footer h6 {
         height: 45vw;
         width: 45vw;
         position: relative;
-        left: 14vh;
+        left: 16vh;
     }
 
     #page1-circle img{
@@ -463,7 +463,7 @@ footer h6 {
 
     #page2-circle {
         top: 8vh;
-        left: -2vw;
+        left: -3.5vw;
         padding-top: 10vh;
         height: 125vw;
         margin-bottom: 8vh;
@@ -606,13 +606,6 @@ footer h6 {
 
     .contact {
         margin-left: -45vw;
-    }
-
-
-    footer h6 {
-        position: absolute;
-        bottom: 3vh;
-        font-size: 2.3vw;
     }
 
     footer{
