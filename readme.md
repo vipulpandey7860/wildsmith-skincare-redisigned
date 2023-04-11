@@ -1,8 +1,8 @@
-# Home Decorative Ecommerce Store
+# Wildsmith Skincare Redesigned
 
-This is the frontend for a fictional ecommerce store that sells home decorative items. The website is built using HTML, CSS, and JavaScript, and GSAP is used for animations.
+Wildsmith Skincare Redesigned is a responsive frontend project of Wildsmith Skincare, which offers modern skincare for those who want natural products and expect cosmeceutical results.
 
-The website is live at [https://i-vipulpandey.github.io/wildsmith-skincare-redisigned/](https://i-vipulpandey.github.io/wildsmith-skincare-redisigned/).
+Check out the live demo: https://i-vipulpandey.github.io/wildsmith-skincare-redisigned/
 
 
 ## Table of Contents
